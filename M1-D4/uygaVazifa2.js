@@ -58,4 +58,34 @@ console.log("car4", car4);
 
 //9-savol
 let carsForRent = [car, car2, car3, car4];
-console.log("carsForRent", carsForRent);
+console.log("carsForRent3", carsForRent);
+
+//10-savol
+let sliced = carsForRent.slice(1, -1);
+
+console.log(sliced);
+
+//11-savol
+console.log(car3 + car3.brand + car3.licensePlate);
+// typeof
+let word = true;
+console.log(typeof word);
+
+console.log(typeof car3.licensePlate);
+
+if (typeof word == "boolean") {
+  console.log(word + " World");
+}
+
+//12-savol
+let carsForSale = [car, car2, car3];
+let totalCars = carsForSale.length;
+// console.log(carsForRent);
+
+// 13 savol
+let arraysOfAppes = ["appleRed", "Apple", "AppleGreen"];
+
+for (let i = 0; i < arraysOfAppes.length; i++) {
+  console.log(arraysOfAppes[i]);
+}
+console.log(arraysOfAppes);
